@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Behavior Map</Title>
+    <Version>$(VersionPrefix)0.0.1</Version>
+    <Authors>opdev1004</Authors>
+    <Copyright>Copyright (c) 2024 Victor Chanil Park</Copyright>
+    <PackageProjectUrl>https://github.com/opdev1004/behaviormapcs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/opdev1004/behaviormapcs</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>State Machine; Finite State Machine; FSM; Event Handler; Event Manager; Behavior Handler; Behavior Manager;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Behavior Map is a simple state machine or state manager. Using Hash Table-like data structure to improve performance. And Behavior Map stores state(event) and behavior, for executing behavior during that state. Behavior Map does not make a huge difference from if statements. However, it can be more clean and reusable state management.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
